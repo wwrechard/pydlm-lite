@@ -1,4 +1,4 @@
-[PyDLM-Lite](https://pydlm.github.io/)  [![Build Status](https://travis-ci.org/wwrechard/pydlm.svg?branch=master)](https://travis-ci.org/wwrechard/pydlm) [![Coverage Status](https://coveralls.io/repos/github/wwrechard/pydlm/badge.svg?branch=master)](https://coveralls.io/github/wwrechard/pydlm?branch=master)
+[PyDLM-Lite](https://pydlm.github.io/)  [![Build Status](https://travis-ci.org/wwrechard/pydlm-lite.svg?branch=master)](https://travis-ci.org/wwrechard/pydlm) [![Coverage Status](https://coveralls.io/repos/github/wwrechard/pydlm/badge.svg?branch=master)](https://coveralls.io/github/wwrechard/pydlm?branch=master)
 =======================================================
 
 The lite version of the main `pydlm` package where the plotting functionality and the dependency on the `matplotlib` has been removed. Most refactoring work will be conducted on this package to improve the class on multi-threading and online learning. In the meanwhile, the main `pydlm` package will remain in its current structure for future development.
