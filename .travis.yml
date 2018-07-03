@@ -10,7 +10,6 @@ python:
   #- "nightly" # currently points to 3.7-dev
   # command to install dependencies.
 install:
-  - sudo apt-get install python-matplotlib
   - python setup.py install
   - pip install coveralls
 script: 
