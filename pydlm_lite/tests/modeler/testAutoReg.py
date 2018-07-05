@@ -1,5 +1,5 @@
 import unittest
-from pydlm.modeler.autoReg import autoReg
+from pydlm_lite.modeler.autoReg import autoReg
 
 
 class testAutoReg(unittest.TestCase):

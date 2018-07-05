@@ -1,11 +1,11 @@
 import numpy as np
 import unittest
-from pydlm.modeler.builder import builder
-from pydlm.modeler.trends import trend
-from pydlm.modeler.seasonality import seasonality
-from pydlm.modeler.dynamic import dynamic
-from pydlm.modeler.autoReg import autoReg
-from pydlm.modeler.matrixTools import matrixTools as mt
+from pydlm_lite.modeler.builder import builder
+from pydlm_lite.modeler.trends import trend
+from pydlm_lite.modeler.seasonality import seasonality
+from pydlm_lite.modeler.dynamic import dynamic
+from pydlm_lite.modeler.autoReg import autoReg
+from pydlm_lite.modeler.matrixTools import matrixTools as mt
 
 
 class testBuilder(unittest.TestCase):

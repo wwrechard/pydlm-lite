@@ -16,7 +16,7 @@ from warnings import warn
 from .component import component
 
 import numpy as np
-import pydlm.base.tools as tl
+import pydlm_lite.base.tools as tl
 
 
 class autoReg(component):

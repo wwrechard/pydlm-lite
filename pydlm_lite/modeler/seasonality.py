@@ -15,7 +15,7 @@ or cos relationship between each state. They can be arbitrarily valued.
 """
 import numpy as np
 from .component import component
-import pydlm.base.tools as tl
+import pydlm_lite.base.tools as tl
 
 # create seasonality component
 # We create the seasonality using the component class

@@ -17,7 +17,7 @@ Example:
 >>> data = np.random.random((1, 1000))
 
 >>> # construct the dlm of a linear trend and a 7-day seasonality
->>> from pydlm import dlm, trend, seasonality
+>>> from pydlm_lite import dlm, trend, seasonality
 >>> myDlm = dlm(data) + trend(degree = 2, 0.98) + seasonality(period = 7, 0.98)
 
 >>> # filter the result
@@ -33,9 +33,9 @@ Example:
 
 from copy import deepcopy
 from numpy import matrix
-from pydlm.base.tools import getInterval
-from pydlm.func._dlm import _dlm
-from pydlm.tuner.dlmTuner import modelTuner
+from pydlm_lite.base.tools import getInterval
+from pydlm_lite.func._dlm import _dlm
+from pydlm_lite.tuner.dlmTuner import modelTuner
 
 class dlm(_dlm):
     """ The main class of the dynamic linear model.
@@ -59,7 +59,7 @@ class dlm(_dlm):
         >>> myDlm.getFilteredObs()
 
     Example 2 (fit a linear regression):
-        >>> from pydlm import dynamic
+        >>> from pydlm_lite import dynamic
         >>> data = np.random.random((1, 100))
         >>> mydlm = dlm(data) + trend(degree=1, 0.98, name='a') +
                         dynamic(features=[[i] for i in range(100)], 1, name='b')

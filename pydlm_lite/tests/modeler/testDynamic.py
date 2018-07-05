@@ -1,5 +1,5 @@
 import numpy as np
-from pydlm.modeler.dynamic import dynamic
+from pydlm_lite.modeler.dynamic import dynamic
 import unittest
 
 

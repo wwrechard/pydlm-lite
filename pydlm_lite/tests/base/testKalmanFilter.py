@@ -1,10 +1,10 @@
 import numpy as np
 import unittest
 
-from pydlm.modeler.trends import trend
-from pydlm.modeler.seasonality import seasonality
-from pydlm.modeler.builder import builder
-from pydlm.base.kalmanFilter import kalmanFilter
+from pydlm_lite.modeler.trends import trend
+from pydlm_lite.modeler.seasonality import seasonality
+from pydlm_lite.modeler.builder import builder
+from pydlm_lite.base.kalmanFilter import kalmanFilter
 
 class testKalmanFilter(unittest.TestCase):
 

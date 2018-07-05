@@ -18,7 +18,7 @@ import numpy as np
 from collections import MutableSequence
 from copy import deepcopy
 
-import pydlm.base.tools as tl
+import pydlm_lite.base.tools as tl
 from .component import component
 # create trend component
 # We create the trend using the component class

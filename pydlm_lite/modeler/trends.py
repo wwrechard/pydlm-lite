@@ -11,7 +11,7 @@ It decribes a latent polynomial trending in the time series data.
 """
 import numpy as np
 from .component import component
-import pydlm.base.tools as tl
+import pydlm_lite.base.tools as tl
 
 # create trend component
 # We create the trend using the component class

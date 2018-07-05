@@ -1,11 +1,11 @@
 import numpy as np
 import unittest
 
-from pydlm.modeler.trends import trend
-from pydlm.modeler.seasonality import seasonality
-from pydlm.modeler.dynamic import dynamic
-from pydlm.modeler.autoReg import autoReg
-from pydlm.dlm import dlm
+from pydlm_lite.modeler.trends import trend
+from pydlm_lite.modeler.seasonality import seasonality
+from pydlm_lite.modeler.dynamic import dynamic
+from pydlm_lite.modeler.autoReg import autoReg
+from pydlm_lite.dlm import dlm
 
 class testDlm(unittest.TestCase):
 

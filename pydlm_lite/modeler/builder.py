@@ -14,9 +14,9 @@ view componets of a given dlm. Builder will finally assemble all the components
 # this class provide all the model building operations for constructing
 # customized model
 import numpy as np
-from pydlm.base.baseModel import baseModel
+from pydlm_lite.base.baseModel import baseModel
 from copy import deepcopy
-from pydlm.modeler.matrixTools import matrixTools as mt
+from pydlm_lite.modeler.matrixTools import matrixTools as mt
 
 # The builder will be the main class for construting dlm
 # it featues two types of evaluation matrix and evaluation matrix

@@ -11,8 +11,8 @@ It provides the basic modeling, filtering, forecasting and smoothing of a dlm.
 """
 from numpy import dot
 from numpy import var
-from pydlm.base.kalmanFilter import kalmanFilter
-from pydlm.modeler.builder import builder
+from pydlm_lite.base.kalmanFilter import kalmanFilter
+from pydlm_lite.modeler.builder import builder
 
 # this class defines the basic functionalities for dlm, which is not supposed
 # to be used by the user. Most functionality in the main dlm will be

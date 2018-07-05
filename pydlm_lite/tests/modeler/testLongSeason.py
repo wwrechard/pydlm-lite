@@ -1,5 +1,5 @@
 import unittest
-from pydlm.modeler.longSeason import longSeason
+from pydlm_lite.modeler.longSeason import longSeason
 
 
 class testLongSeason(unittest.TestCase):
